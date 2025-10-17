@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - F823 LLC</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9fafb;
+        }
+        nav {
+            background: #1e40af;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        nav a:hover {
+            opacity: 0.8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: #1e40af;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .product-section {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .product-section h2 {
+            color: #1e40af;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .badge-available {
+            background: #dcfce7;
+            color: #166534;
+        }
+        .badge-coming-soon {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .badge-development {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .features-list {
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .features-list ul {
+            margin-left: 20px;
+        }
+        .features-list li {
+            margin: 10px 0;
+        }
+        .pricing-box {
+            background: #eff6ff;
+            border-left: 4px solid #1e40af;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .pricing-box h3 {
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        .cta-button {
+            background: #1e40af;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #1e3a8a;
+        }
+        footer {
+            text-align: center;
+            color: #6b7280;
+            margin-top: 60px;
+            padding: 30px 20px;
+            background: white;
+            border-top: 3px solid #1e40af;
+        }
+        footer a {
+            color: #1e40af;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">F823 LLC</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="policies.html">Policies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Our Products</h1>
+        <p style="text-align: center; font-size: 1.2em; color: #6b7280; margin-bottom: 40px;">
+            Enterprise-grade tools and educational content to help you ship faster
+        </p>
+
+        <!-- SaaStastic -->
+        <div class="product-section">
+            <h2>SaaStastic <span class="badge badge-available">Available Now</span></h2>
+            <p style="font-size: 1.1em; margin: 15px 0; color: #6b7280;">
+                The only B2B SaaS boilerplate with production-grade multi-tenancy, 29-permission RBAC, 
+                and 87 automated tests. Built for professional developers using AI coding assistants.
+            </p>
+
+            <div class="features-list">
+                <h3 style="color: #1e40af; margin-bottom: 10px;">✨ Key Features</h3>
+                <ul>
+                    <li><strong>True Multi-Tenancy:</strong> Database-level row security with automatic tenant filtering</li>
+                    <li><strong>Enterprise RBAC:</strong> 29 granular permissions across 7 categories</li>
+                    <li><strong>87 Automated Tests:</strong> 60 unit tests + 27 E2E tests included</li>
+                    <li><strong>Complete Stripe Integration:</strong> Full billing lifecycle, not just checkout</li>
+                    <li><strong>Team Management:</strong> Invitations, roles, audit trails, notifications</li>
+                    <li><strong>AI-First Development:</strong> 750-line guide, IDE configs for Cursor/Windsurf/Claude/Copilot</li>
+                    <li><strong>Production Ready:</strong> Security best practices, monitoring, error handling</li>
+                </ul>
+            </div>
+
+            <div class="features-list">
+                <h3 style="color: #1e40af; margin-bottom: 10px;">🛠️ Tech Stack</h3>
+                <ul>
+                    <li>Next.js 15 + React 19 + TypeScript 5</li>
+                    <li>PostgreSQL + Prisma ORM 6</li>
+                    <li>Clerk Authentication (multi-tenant)</li>
+                    <li>TailwindCSS 4 + shadcn/ui</li>
+                    <li>Vitest + Playwright testing</li>
+                </ul>
+            </div>
+
+            <div class="pricing-box">
+                <h3>Pricing</h3>
+                <p><strong>Starter:</strong> $399 - Perfect for solo developers</p>
+                <p><strong>Professional:</strong> $997 - For teams with support</p>
+                <p><strong>Agency:</strong> $4,997 - Unlimited client projects with white-label rights</p>
+            </div>
+
+            <a href="contact.html" class="cta-button">Get SaaStastic →</a>
+        </div>
+
+        <!-- LaunchKit Pro -->
+        <div class="product-section">
+            <h2>LaunchKit Pro <span class="badge badge-coming-soon">Coming Soon</span></h2>
+            <p style="font-size: 1.1em; margin: 15px 0; color: #6b7280;">
+                A comprehensive product launch system for SaaS founders. Plan, execute, and track your 
+                product launches with proven templates and automation.
+            </p>
+
+            <div class="features-list">
+                <h3 style="color: #1e40af; margin-bottom: 10px;">🚀 Planned Features</h3>
+                <ul>
+                    <li>Pre-launch checklist and timeline templates</li>
+                    <li>Marketing automation workflows</li>
+                    <li>Product Hunt launch guide</li>
+                    <li>Social media scheduling</li>
+                    <li>Launch analytics dashboard</li>
+                    <li>Email campaign templates</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 20px; color: #6b7280;">
+                <strong>Expected Release:</strong> Q2 2026<br>
+                <a href="contact.html" style="color: #1e40af;">Contact us to join the waitlist</a>
+            </p>
+        </div>
+
+        <!-- TrakrApps -->
+        <div class="product-section">
+            <h2>TrakrApps <span class="badge badge-development">In Development</span></h2>
+            <p style="font-size: 1.1em; margin: 15px 0; color: #6b7280;">
+                Business management tools designed specifically for skilled trades professionals. 
+                Estimate jobs, track time, manage invoices, and grow your business.
+            </p>
+
+            <div class="features-list">
+                <h3 style="color: #1e40af; margin-bottom: 10px;">🔧 Planned Features</h3>
+                <ul>
+                    <li>Job estimation and quoting</li>
+                    <li>Time tracking and scheduling</li>
+                    <li>Invoice generation and payment tracking</li>
+                    <li>Customer relationship management</li>
+                    <li>Mobile-first design for field work</li>
+                    <li>Integration with accounting software</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 20px; color: #6b7280;">
+                <strong>Target Audience:</strong> Electricians, plumbers, HVAC, contractors, and other skilled trades<br>
+                <strong>Status:</strong> Alpha development - contact us for early access
+            </p>
+        </div>
+
+        <!-- Publishing -->
+        <div class="product-section">
+            <h2>📚 Digital Publications</h2>
+            <p style="font-size: 1.1em; margin: 15px 0; color: #6b7280;">
+                Practical guides and workbooks for entrepreneurs and professionals
+            </p>
+
+            <div style="margin: 30px 0;">
+                <h3 style="color: #1e40af; font-size: 1.3em; margin-bottom: 10px;">
+                    "LLC and DBA Workbook" <span class="badge badge-coming-soon">Coming Soon</span>
+                </h3>
+                <p style="margin: 10px 0;">
+                    A complete step-by-step guide to business formation. Learn how to choose the right 
+                    structure, register your LLC, file for DBAs, and handle ongoing compliance requirements.
+                </p>
+                <p style="color: #6b7280; font-size: 0.95em;">
+                    <strong>Format:</strong> Digital PDF + Interactive worksheets<br>
+                    <strong>Pages:</strong> ~150 pages with checklists and templates
+                </p>
+            </div>
+
+            <div style="margin: 30px 0;">
+                <h3 style="color: #1e40af; font-size: 1.3em; margin-bottom: 10px;">
+                    "Daily Dose of Me but BETTER" <span class="badge badge-coming-soon">Coming Soon</span>
+                </h3>
+                <p style="margin: 10px 0;">
+                    A self-improvement devotional workbook combining daily reflections, practical exercises, 
+                    and goal-setting frameworks to help you become the best version of yourself.
+                </p>
+                <p style="color: #6b7280; font-size: 0.95em;">
+                    <strong>Format:</strong> Digital + Print on demand<br>
+                    <strong>Structure:</strong> 90 days of guided personal development
+                </p>
+            </div>
+        </div>
+
+        <div class="product-section" style="background: #eff6ff;">
+            <h2>🎯 Custom Solutions</h2>
+            <p style="font-size: 1.1em; margin: 15px 0;">
+                Need something specific for your business? We offer consulting and custom development 
+                services for qualified clients.
+            </p>
+            <p>
+                <strong>Services Include:</strong>
+            </p>
+            <ul style="margin: 15px 0 15px 30px;">
+                <li>Custom SaaS development</li>
+                <li>Architecture consulting</li>
+                <li>Code audits and optimization</li>
+                <li>Training and workshops</li>
+            </ul>
+            <a href="contact.html" class="cta-button">Discuss Your Project →</a>
+        </div>
+    </div>
+
+    <footer>
+        <p style="margin-bottom: 15px;">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="products.html">Products</a> |
+            <a href="policies.html">Policies</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+        <p>© 2025 F823 LLC. All rights reserved.</p>
+        <p>Registered in Ohio</p>
+    </footer>
+</body>
+</html>

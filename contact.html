@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - F823 LLC</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9fafb;
+        }
+        nav {
+            background: #1e40af;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        nav a:hover {
+            opacity: 0.8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: #1e40af;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .contact-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .contact-card h2 {
+            color: #1e40af;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        .contact-item {
+            margin: 15px 0;
+            padding: 10px;
+            background: #f9fafb;
+            border-radius: 4px;
+        }
+        .contact-item strong {
+            color: #1e40af;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .phone-reveal {
+            background: #eff6ff;
+            border: 2px dashed #1e40af;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .reveal-button {
+            background: #1e40af;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .reveal-button:hover {
+            background: #1e3a8a;
+        }
+        .phone-number {
+            display: none;
+            font-size: 1.5em;
+            color: #1e40af;
+            font-weight: bold;
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 6px;
+        }
+        .phone-number.revealed {
+            display: block;
+        }
+        footer {
+            text-align: center;
+            color: #6b7280;
+            margin-top: 60px;
+            padding: 30px 20px;
+            background: white;
+            border-top: 3px solid #1e40af;
+        }
+        footer a {
+            color: #1e40af;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">F823 LLC</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="policies.html">Policies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h2>📧 Email Support</h2>
+                <div class="contact-item">
+                    <strong>General Inquiries</strong>
+                    <a href="mailto:contact@f823llc.com" style="color: #1e40af;">contact@f823llc.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Customer Support</strong>
+                    <a href="mailto:support@f823llc.com" style="color: #1e40af;">support@f823llc.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Sales</strong>
+                    <a href="mailto:sales@f823llc.com" style="color: #1e40af;">sales@f823llc.com</a>
+                </div>
+                <p style="margin-top: 15px; color: #6b7280; font-size: 0.9em;">
+                    <strong>Response Time:</strong> Within 24-48 hours
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <h2>📍 Location</h2>
+                <div class="contact-item">
+                    <strong>City</strong>
+                    Marietta, Ohio
+                </div>
+                <div class="contact-item">
+                    <strong>Time Zone</strong>
+                    Eastern Standard Time (EST)
+                </div>
+                <div class="contact-item">
+                    <strong>Business Hours</strong>
+                    Monday - Friday<br>
+                    9:00 AM - 5:00 PM EST
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card" style="margin-top: 30px;">
+            <h2>📞 Phone Support</h2>
+            <p style="margin-bottom: 20px; color: #6b7280;">
+                For urgent matters, you can reach us by phone. Click the button below to reveal our phone number.
+            </p>
+            
+            <div class="phone-reveal">
+                <p style="margin-bottom: 15px; font-weight: bold; color: #1e40af;">
+                    Click to reveal phone number:
+                </p>
+                <button class="reveal-button" onclick="revealPhone()">
+                    Show Phone Number
+                </button>
+                <div id="phoneNumber" class="phone-number">
+                    📞 (740) 538-8787
+                </div>
+                <p style="margin-top: 15px; font-size: 0.9em; color: #6b7280;">
+                    Available during business hours
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-card" style="margin-top: 30px;">
+            <h2>💬 Other Ways to Reach Us</h2>
+            <div class="contact-item">
+                <strong>Community Support</strong>
+                Join our Discord community for peer support and discussions
+                <br><small style="color: #6b7280;">(Link provided with product purchase)</small>
+            </div>
+            <div class="contact-item">
+                <strong>Social Media</strong>
+                Follow us for updates and announcements
+                <br><small style="color: #6b7280;">(Links coming soon)</small>
+            </div>
+        </div>
+
+        <div class="contact-card" style="margin-top: 30px; background: #eff6ff;">
+            <h2>⏱️ What to Expect</h2>
+            <ul style="list-style-position: inside; margin-left: 0;">
+                <li><strong>Email:</strong> Responses within 24-48 hours</li>
+                <li><strong>Phone:</strong> Immediate assistance during business hours</li>
+                <li><strong>Sales:</strong> Priority response within 12 hours</li>
+                <li><strong>Urgent Issues:</strong> Call during business hours for fastest resolution</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p style="margin-bottom: 15px;">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="products.html">Products</a> |
+            <a href="policies.html">Policies</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+        <p>© 2025 F823 LLC. All rights reserved.</p>
+        <p>Registered in Ohio</p>
+    </footer>
+
+    <script>
+        function revealPhone() {
+            const phoneDiv = document.getElementById('phoneNumber');
+            const button = document.querySelector('.reveal-button');
+            
+            phoneDiv.classList.add('revealed');
+            button.style.display = 'none';
+            
+            // Anti-bot: Log interaction (real humans will click)
+            const timestamp = new Date().getTime();
+            console.log('Phone revealed at:', timestamp);
+        }
+    </script>
+</body>
+</html>
